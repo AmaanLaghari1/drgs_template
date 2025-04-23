@@ -1,0 +1,42 @@
+@media only screen and (max-width: 998px) {
+    .logo-container {
+        width: 270px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .logo {
+        width: 16rem;
+    }
+    
+    #chevron {
+        top: 158px;
+        width: 165px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-container {
+        width: 200px;
+        height: 160px;
+        border-radius: 70px;
+    }
+    
+    .logo {
+        width: 10rem;
+    }
+
+    #chevron {
+        top: 111px;
+        width: 114px;
+    }
+
+    #chevron:before {
+        transform: skew(0deg, 12deg);
+        /* border-bottom-right-radius: 10px; */
+      }
+      #chevron:after {
+        transform: skew(0deg, -12deg);
+        /* border-bottom-left-radius: 10px; */
+      }
+}
